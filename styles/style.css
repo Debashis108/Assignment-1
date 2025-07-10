@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero{
+    background-image: url("../B12A01-landing-launchpad/Assets/Hero-bg.png");
+    width: 1440px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-heading{
+    text-align: center;
+    margin: 309px 267.5px  237px  267.5px ;
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+    height: 51px;
+    width: 99px;
+    margin: 50px  ;
+}
+.signup-btn{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 16px;
+    height: 48px;
+    width: 132px;
+    border-radius: 10px;
+    margin: 51.5px;
+    
+}
+.signup-btn:hover{
+    color: gainsboro;
+    background-color:#7a77db;
+    border:1px solid white;
+}
+.focused-btn{
+    text-align: center;
+    color: #FFFFFF
+  
+   
+   
+}
+#focused-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    height: 48px;
+    width: 174px;
+    border-radius: 10%;
+    font-size:16px;
+    margin:37px 365.5px 152px;
+   
+}
+#focused-btn:hover{
+    color: gainsboro;
+    background-color: #7a77db;
+    border:1px solid white;
+}
