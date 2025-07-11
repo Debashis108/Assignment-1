@@ -54,7 +54,7 @@ body, html{
     color: #FFFFFF;
     height: 48px;
     width: 174px;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size:16px;
     margin:37px 365.5px 152px;
     border:none;
@@ -137,4 +137,62 @@ img{
 
     font-size:20px;
     color:rgba(0, 0, 0, 0.5);
+}
+.newsletter-head{
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+#email{
+    height: 70px;
+    width: 497px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 271px 20px 32px;
+}
+#name{
+    height: 70px;
+    width: 497px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 271px;
+}
+#message{
+    height: 135px;
+    width: 497px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 271px 85px 32px;
+}
+#email-label{
+    font-size: 18px;
+    font-weight: medium;
+}
+#name-label{
+    font-size: 18px;
+    font-weight: medium;
+}
+#message-label{
+    font-size: 18px;
+    font-weight: medium;
+}
+.newsletter-btn{
+    height: 62px;
+    width: 497px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color:  #4E47FF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 19px;
+}
+.newsletter{
+    display: flex;
+}
+.newsletter-head{
+    margin-right: 115px;
 }
