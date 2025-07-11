@@ -190,9 +190,49 @@ img{
     border-radius: 10px;
     margin-top: 19px;
 }
+.newsletter-btn:hover{
+    color: gainsboro;
+    background-color: #7a77db;
+    border:1px solid white;
+}
 .newsletter{
     display: flex;
 }
 .newsletter-head{
     margin-right: 115px;
+    font-size: 97px;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+}
+footer div h1{
+    font-size: 100px;
+    color: #4E47FF;
+    margin-top: 104px;
+}
+.footer-subtitle{
+    font-size: 100%;
+    color:rgba(137, 135, 161, 1);
+}
+.footer-paragraph{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100%;
+    color:rgba(137, 135, 161, 1);
+    margin-top: 20px;
+   
+}
+#footer-home{
+    text-decoration: none;
+}
+#footer-about{
+    text-decoration: none;
+}
+#footer-works{
+    text-decoration: none;
+}
+#footer-services{
+    text-decoration: none;
 }
